@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-service
+  description: Sample service to test Backstage and GitHub Actions.
+  annotations:
+    github.com/project-slug: your-organization/backstage-sample-repo
+    backstage.io/github-actions: true
+spec:
+  type: service
+  lifecycle: experimental
+  owner: your-team
+
