@@ -9,5 +9,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: your-team
+  owner: guests
 
