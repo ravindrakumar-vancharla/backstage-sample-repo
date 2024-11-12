@@ -5,7 +5,7 @@ metadata:
   description: Sample service to test Backstage and GitHub Actions.
   annotations:
     github.com/project-slug: your-organization/backstage-sample-repo
-    backstage.io/github-actions: true
+    backstage.io/github-actions: "true"
 spec:
   type: service
   lifecycle: experimental
